@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skelix - Your Journey From Idea to Reality</title>
+    
+    <!-- Google Fonts for typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Playfair+Display:wght@400;700&family=Merriweather:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" xintegrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header and Navigation Bar -->
+    <header class="main-header">
+        <nav class="navbar">
+            <a href="#home" class="logo">SKELIX</a>
+            <ul class="nav-links">
+                <li><button id="show-code-btn" class="show-code-btn hidden">Show Code</button></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Features</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-button"><i class="fas fa-bars"></i></button>
+        </nav>
+    </header>
+
+    <main id="landing-page">
+        <!-- Section 1: Hero -->
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h1>Your Journey From Idea To Reality</h1>
+                <p class="hero-description">No Coding Spells Required. Just Follow Our Lead, And Watch Your Vision Come Alive On The Web</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" id="dive-in-btn">DIVE IN!</button>
+                    <button class="btn btn-secondary">Learn More</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Core Services -->
+        <section id="services" class="services-section">
+            <div class="section-header">
+                <h2>Our Core Services</h2>
+                <p>We Transform Your Design Concepts Into Stunning, Fully Functional Websites. Experience Effortless Conversion From Wireframes To Clean, Customisable Code, Faster Than Ever.</p>
+            </div>
+            <div class="services-grid">
+                <!-- Service Cards -->
+                <div class="service-card" style="--icon-color: #4A90E2; --icon-color-rgb: 74, 144, 226;">
+                    <div class="icon-container"><i class="fas fa-desktop"></i></div>
+                    <h3>Custom Web Development</h3>
+                    <p>Tailored web solutions built from the ground up to meet your specific business needs and goals.</p>
+                </div>
+                <div class="service-card" style="--icon-color: #50E3C2; --icon-color-rgb: 80, 227, 194;">
+                    <div class="icon-container"><i class="fas fa-pen-ruler"></i></div>
+                    <h3>UI/UX Design</h3>
+                    <p>Crafting intuitive and engaging user interfaces for an exceptional user experience.</p>
+                </div>
+                <div class="service-card" style="--icon-color: #9013FE; --icon-color-rgb: 144, 19, 254;">
+                    <div class="icon-container"><i class="fas fa-bolt"></i></div>
+                    <h3>E-commerce Solutions</h3>
+                    <p>Building secure and scalable online stores to boost your sales and reach.</p>
+                </div>
+                <div class="service-card" style="--icon-color: #D0021B; --icon-color-rgb: 208, 2, 27;">
+                    <div class="icon-container"><i class="fas fa-tasks"></i></div>
+                    <h3>Content Management</h3>
+                    <p>Empowering you with easy to use systems to manage and update your website content.</p>
+                </div>
+                <div class="service-card" style="--icon-color: #4A90E2; --icon-color-rgb: 74, 144, 226;">
+                    <div class="icon-container"><i class="fas fa-tachometer-alt"></i></div>
+                    <h3>Performance Optimization</h3>
+                    <p>Ensuring your website loads quickly and performs flawlessly across all devices.</p>
+                </div>
+                <div class="service-card" style="--icon-color: #F5A623; --icon-color-rgb: 245, 166, 35;">
+                    <div class="icon-container"><i class="fas fa-chart-line"></i></div>
+                    <h3>SEO & Digital Marketing</h3>
+                    <p>Improving your online visibility and driving organic traffic to your website.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: About Us -->
+        <section id="about" class="about-section">
+             <div class="section-header">
+                <h2>About Us</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <span>ABOUT US IMAGE</span>
+                </div>
+                <div class="about-text">
+                    <h3>WHO WE ARE</h3>
+                    <p>We are a passionate team of web developers and designers dedicated to crafting exceptional digital experiences. With years of expertise, we pride ourselves on delivering innovative, user-centric, and high quality solutions that help businesses thrive online.</p>
+                    <p>Our approach combines creativity with technical precision, ensuring every project is not just visually appealing but also robust, scalable, and optimized for performance. We believe in building strong partnerships with our clients, working closely to understand their unique vision and bring it to life.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Original Footer -->
+        <footer id="contact" class="footer-section">
+            <div class="footer-grid">
+                <div class="footer-column brand-info">
+                    <h3 class="logo">SKELIX</h3>
+                    <p>Crafting exceptional digital experiences worldwide.</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Features</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of service</a></li>
+                        <li><a href="#">Cookies policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li><a href="#">Address</a></li>
+                        <li><a href="mailto:info@skelix.com">Email</a></li>
+                        <li><a href="tel:+1234567890">Phone No</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </main>
+    
+    <main id="gallery-page" class="hidden">
+        <div class="page-wrapper">
+            <div class="page-container gallery-container" data-base-class="gallery-container">
+                <nav class="gallery-inner-nav">
+                    <a href="#">Collection</a>
+                    <a href="#">About</a>
+                    <a href="#">Galerie</a>
+                    <a href="#">Account</a>
+                    <a href="#">Contact</a>
+                </nav>
+                
+                <section class="gallery-hero">
+                    <h1 class="page-headline">Where Form Meets Function</h1>
+                    <p>A curated selection of objects designed with intention, crafted with precision, and built to last a lifetime.</p>
+                </section>
+                
+                <section class="product-grid">
+                    <div class="product-item">
+                        <div class="product-image-container">
+                            <div class="product-hover-details">View product details</div>
+                            <div class="product-image-placeholder"></div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-number">Product 1</span>
+                            <h3 class="product-name">The sculpted vase</h3>
+                            <p class="product-price">$250</p>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-image-container">
+                            <div class="product-hover-details">View product details</div>
+                            <div class="product-image-placeholder"></div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-number">Product 2</span>
+                            <h3 class="product-name">The Linen Throw</h3>
+                            <p class="product-price">$180</p>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-image-container">
+                            <div class="product-hover-details">View product details</div>
+                            <div class="product-image-placeholder"></div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-number">Product 3</span>
+                            <h3 class="product-name">The Brass Lamp</h3>
+                            <p class="product-price">$420</p>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-image-container">
+                            <div class="product-hover-details">View product details</div>
+                            <div class="product-image-placeholder"></div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-number">Product 4</span>
+                            <h3 class="product-name">Ceramic Mugs (Set of 2)</h3>
+                            <p class="product-price">$95</p>
+                        </div>
+                    </div>
+                </section>
+                
+                <section class="philosophy-section">
+                    <h2>The Philosophy of Design</h2>
+                    <p>We believe that the objects we live with should be more than just functional. They should be beautiful, intentional, and inspiring. Galerie was born from a desire to curate items that embody this philosophy, bringing together timeless design and exceptional craftsmanship.</p>
+                    <a href="#" class="story-link page-cta">Read Our Story</a>
+                </section>
+                
+                <footer class="gallery-footer">
+                    <div class="gallery-footer-grid">
+                        <div class="gallery-footer-column">
+                            <h4>Galerie</h4>
+                            <p>Objects of intention.</p>
+                        </div>
+                         <div class="gallery-footer-column">
+                            <h4>Explore</h4>
+                            <ul>
+                                <li><a href="#">Collection</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Journal</a></li>
+                            </ul>
+                        </div>
+                        <div class="gallery-footer-column">
+                            <h4>Support</h4>
+                            <ul>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Shipping</a></li>
+                                <li><a href="#">FAQ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </main>
+    
+    <main id="editorial-page" class="hidden">
+         <div class="page-wrapper">
+            <div class="page-container editorial-container" data-base-class="editorial-container">
+                <nav class="editorial-inner-nav">
+                    <div class="editorial-inner-nav-links">
+                        <a href="#">New Arrivals</a>
+                        <a href="#">LookBook</a>
+                        <a href="#">Our Story</a>
+                    </div>
+                    <a href="#" class="logo">Atelier</a>
+                    <div class="editorial-inner-nav-links">
+                        <a href="#"><i class="fas fa-shopping-bag"></i></a>
+                    </div>
+                </nav>
+
+                <section class="editorial-hero">
+                    <div class="editorial-hero-text">
+                        <h1 class="page-headline">Timeless By Design</h1>
+                        <button class="btn page-cta">Explore the collection</button>
+                    </div>
+                    <div class="editorial-hero-image">Model</div>
+                </section>
+
+                <section class="editorial-section icon-bag-section">
+                     <div class="icon-bag-image">Product Details</div>
+                     <div class="icon-bag-text">
+                         <h4>NEW ARRIVALS</h4>
+                         <h2>The Icon Bag</h2>
+                         <p>Meticulously crafted from the finest Italian leather, the Icon Bag is a testament to understated luxury. Its structured form and signature hardware make it an instant classic.</p>
+                         <a href="#" class="shop-now-link">Shop Now</a>
+                     </div>
+                </section>
+
+                <section class="editorial-section lookbook-section">
+                    <h2>The Lookbook</h2>
+                    <p>Inspiration for the season.</p>
+                    <div class="lookbook-grid">
+                        <div class="lookbook-item look-1">LOOK 1</div>
+                        <div class="lookbook-item look-2">LOOK 2</div>
+                        <div class="lookbook-item look-3">LOOK 3</div>
+                        <div class="lookbook-item look-4">LOOK 4</div>
+                        <div class="lookbook-item look-5">LOOK 5</div>
+                    </div>
+                </section>
+
+                <section class="our-story-section">
+                     <h2>Our Story</h2>
+                     <p>Atelier was founded on the belief that true style is timeless. We create pieces that are meant to be cherished, transcending fleeting trends to become a permanent part of your wardrobe. Each item is a blend of traditional craftsmanship and modern sensibility.</p>
+                     <a href="#" class="story-link">Read More</a>
+                </section>
+
+                <footer class="editorial-footer">
+                    <div class="editorial-footer-grid">
+                        <div class="editorial-footer-column">
+                            <h4>Atelier</h4>
+                            <p>Luxury redefined.</p>
+                        </div>
+                        <div class="editorial-footer-column">
+                            <h4>Customer Care</h4>
+                            <ul>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Shipping & Returns</a></li>
+                                <li><a href="#">FAQ</a></li>
+                            </ul>
+                        </div>
+                        <div class="editorial-footer-column">
+                             <h4>Join Our Newsletter</h4>
+                             <p>Receive exclusive updates and early access to new collections.</p>
+                             <form class="newsletter-form">
+                                 <input type="email" placeholder="Email">
+                                 <button>GO</button>
+                             </form>
+                        </div>
+                    </div>
+                    <p class="copyright">&copy; 2023, Atelier. All Rights Reserved.</p>
+                </footer>
+            </div>
+        </div>
+    </main>
+
+    <aside class="side-panel">
+        <button class="side-panel-toggle"><i class="fas fa-chevron-left"></i></button>
+        <h3>Brand Identity</h3>
+        <div class="side-panel-option" id="color-palette-toggle">
+            <span>Color Palette</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="side-panel-details hidden" id="color-palette-details">
+            <div class="palette-option" data-theme="theme-noir-gold">
+                <div class="swatches">
+                    <div class="color-swatch" style="background-color: #212121;"></div>
+                    <div class="color-swatch" style="background-color: #C5B358;"></div>
+                    <div class="color-swatch" style="background-color: #AAAAAA;"></div>
+                </div>
+                <h4>Noir & Gold</h4>
+                <p>Dramatic, confident, and opulent. A timeless combination for brands that command attention.</p>
+            </div>
+            <div class="palette-option" data-theme="theme-champagne-ivory">
+                <div class="swatches">
+                    <div class="color-swatch" style="background-color: #F0EAD6;"></div>
+                    <div class="color-swatch" style="background-color: #FFFDD0;"></div>
+                    <div class="color-swatch" style="background-color: #D2B48C;"></div>
+                </div>
+                <h4>Champagne & Ivory</h4>
+                <p>Light, serene, and exquisitely refined. Creates a clean and sophisticated atmosphere of pure elegance.</p>
+            </div>
+            <div class="palette-option" data-theme="theme-deep-jewel">
+                <div class="swatches">
+                    <div class="color-swatch" style="background-color: #000080;"></div>
+                    <div class="color-swatch" style="background-color: #006400;"></div>
+                    <div class="color-swatch" style="background-color: #556B2F;"></div>
+                </div>
+                <h4>Deep Jewel Tones</h4>
+                <p>Rich, royal, and exclusive. For brands that are established, confident, and deeply luxurious.</p>
+            </div>
+        </div>
+        <div class="side-panel-option" id="typography-toggle">
+            <span>Typography</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="side-panel-details hidden" id="typography-details">
+            <div class="font-pairing-option" data-font-class="font-classic-serif">
+                <h4>Classic Serif</h4>
+                <p>The pairing is timeless and high fashion. The elegant heading font commands attention, while the clean body font ensures a comfortable reading experience.</p>
+            </div>
+            <div class="font-pairing-option" data-font-class="font-modern-minimalist">
+                <h4>Modern and Minimalist</h4>
+                <p>Clean architectural, and contemporary. Using a single, versatile font family creates a sharp and cohesive look, perfect for a modern luxury brand that values precision.</p>
+            </div>
+            <div class="font-pairing-option" data-font-class="font-understated-refined">
+                <h4>Understated and Refined</h4>
+                <p>Confident and intelligent. Using cohesive serif typeface for both headings and text creates a literary feel, suggesting a brand rooted in quiet, lasting quality.</p>
+            </div>
+        </div>
+         <div class="side-panel-option" id="hero-toggle">
+            <span>Hero Section</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="side-panel-details hidden" id="hero-details">
+            <div class="hero-option-group">
+                <h4>Choose a Headline</h4>
+                <ol class="headline-list">
+                    <li data-headline="Exquisite craftsmanship. Timeless design.">Exquisite craftsmanship. Timeless design.</li>
+                    <li data-headline="The art of Perfection.">The art of Perfection.</li>
+                    <li data-headline="An Icon of Modern Luxury.">An Icon of Modern Luxury.</li>
+                </ol>
+            </div>
+            <div class="hero-option-group">
+                <h4>Select a Call-To-Action Button</h4>
+                <button class="btn-cta" data-cta="Discover the Collection">Discover the Collection</button>
+                <button class="btn-cta" data-cta="Explore the Lookbook">Explore the Lookbook</button>
+                <button class="btn-cta" data-cta="Experience a New Standard">Experience a New Standard</button>
+            </div>
+        </div>
+    </aside>
+    
+    <main id="code-page" class="hidden">
+        <div class="code-container">
+            <h2>Website Code</h2>
+            <button id="back-to-gallery-btn" class="btn btn-primary back-to-gallery-btn">Back to Preview</button>
+            <pre><code id="code-display"></code></pre>
+        </div>
+    </main>
+
+    <!-- Modal Popup for Multi-Step Form -->
+    <div id="build-modal" class="modal-overlay hidden">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+
+            <!-- Step 1: Welcome -->
+            <div id="modal-step-1" class="modal-step">
+                <h2>Let's Build Your Perfect Website</h2>
+                <p>Answer a few quick questions to help us tailor the experience just for you. It'll only take a minute.</p>
+                <button id="get-started-btn" class="btn btn-modal">Get Started Now</button>
+            </div>
+
+            <!-- Step 2: Choose Type -->
+            <div id="modal-step-2" class="modal-step hidden">
+                <h2>Choose Your Website Type</h2>
+                <div class="choice-buttons">
+                    <button class="btn-choice" data-target-step="3">E-commerce Websites</button>
+                    <button class="btn-choice" data-target-step="4">Business Websites</button>
+                    <button class="btn-choice" data-target-step="5">Blogs</button>
+                </div>
+                <div class="navigation-buttons">
+                    <button class="btn btn-previous" data-target-step="1">Previous</button>
+                </div>
+            </div>
+
+            <!-- Step 3: E-commerce Questions -->
+            <div id="modal-step-3" class="modal-step hidden">
+                <h2>What Is The Style Of The Products You Sell</h2>
+                <div class="choice-buttons">
+                    <button class="btn-choice" data-target-step="6">Luxury & Elegant</button>
+                    <button class="btn-choice">Clean & Modern</button>
+                    <button class="btn-choice">Natural & Organic</button>
+                </div>
+                <div class="navigation-buttons">
+                    <button class="btn btn-previous" data-target-step="2">Previous</button>
+                </div>
+            </div>
+
+            <!-- Step 4: Business Questions -->
+            <div id="modal-step-4" class="modal-step hidden">
+                <h2>What Is The Personality Of Your Business</h2>
+                <div class="choice-buttons">
+                    <button class="btn-choice">Corporate & Trustworthy</button>
+                    <button class="btn-choice">Friendly & Approachable</button>
+                    <button class="btn-choice">Tech & Innovative</button>
+                </div>
+                <div class="navigation-buttons">
+                    <button class="btn btn-previous" data-target-step="2">Previous</button>
+                </div>
+            </div>
+
+            <!-- Step 5: Blog Questions -->
+            <div id="modal-step-5" class="modal-step hidden">
+                <h2>What Is The Tone Of Your Content</h2>
+                <div class="choice-buttons">
+                    <button class="btn-choice">Classic & Editorial</button>
+                    <button class="btn-choice">Bold & Typographic</button>
+                    <button class="btn-choice">Cozy & Personal</button>
+                </div>
+                <div class="navigation-buttons">
+                    <button class="btn btn-previous" data-target-step="2">Previous</button>
+                </div>
+            </div>
+            
+            <!-- Step 6: Layout Questions -->
+            <div id="modal-step-6" class="modal-step hidden">
+                <h2>Choose The Overall Layout And Structure</h2>
+                <div class="choice-buttons">
+                    <button class="btn-choice btn-choice-solid" data-target-page="editorial-page">The Editorial Spread</button>
+                    <button class="btn-choice btn-choice-solid" data-target-page="gallery-page">The Refined Gallery</button>
+                </div>
+                <div class="navigation-buttons">
+                    <button class="btn btn-previous" data-target-step="3">Previous</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+<!-- Link to your JavaScript file -->
+    <script src="script.js"></script>
+</body></html>
+</html>
